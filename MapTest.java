@@ -44,4 +44,24 @@ class MapTest {
         _m1.init(_map_3_3);
         assertEquals(_m0,_m1);
     }
+    @Test
+    void testMul() {
+        Map2D m = new Map (new int[][]{{1,2},{3,4}});
+        m.mul(2);
+        assertEquals(2, m.getPixel(0,0));
+        assertEquals(4, m.getPixel(0,1));
+        assertEquals(6, m.getPixel(1,0));
+        assertEquals(8, m.getPixel(1,1));
+    }
+    @Test
+    void testAddMap2D() {
+        Map2D a = new Map (new int[][]{{1,2},{3,4}});
+        Map2D b = new Map (new int[][]{{5,6},{7,8}});
+        a.addMap2D(b);
+
+        assertEquals(6, a.getPixel(0,0));
+        assertEquals(8, a.getPixel(0,1));
+        assertEquals(10, a.getPixel(1,0));
+        assertEquals(12, a.getPixel(1,1));
+    }
 }

@@ -112,12 +112,23 @@ public class Map implements Map2D, Serializable {
 
 	@Override
 	public void addMap2D(Map2D p) {
-
+		if (p == null || !sameDimensions(p)) {
+			return;
+		}
+		for (int x = 0; x < getWidth(); x++) {
+			for (int y = 0; y < getHeight(); y++) {
+				map[x][y] += p.getPixel(x, y);
+			}
+		}
 	}
 
 	@Override
 	public void mul(double scalar) {
-
+		for (int x = 0; x < getWidth(); x++) {
+			for (int y = 0; y < getHeight(); y++) {
+				map[x][y] = (int)(map[x][y] * scalar);
+			}
+		}
 	}
 
 	@Override
