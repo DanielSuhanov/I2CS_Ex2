@@ -1,12 +1,12 @@
 # I2CS_Ex2
-Ex2 – Basic Object-Oriented Programming & 2D Maze Algorithms  
+Ex2 - Basic Object-Oriented Programming & 2D Maze Algorithms  
 Introduction to Computer Science 2026  
 Ariel University  
 
 Student: Daniel Suhanov  
 ID: 207636481  
 
----
+_____________________
 
 ## Overview
 This exercise focuses on object-oriented programming and algorithmic operations on
@@ -20,7 +20,7 @@ The main algorithms are based on **Breadth-First Search (BFS)** and include:
 
 The assignment also includes drawing primitives and a simple GUI visualization.
 
----
+_____________________
 
 ## Assignment Goals
 - Implement the `Map2D` interface without modification
@@ -29,7 +29,7 @@ The assignment also includes drawing primitives and a simple GUI visualization.
 - Write JUnit tests for the core functionalities
 - Visualize the map using a simple GUI (`StdDraw`)
 
----
+_____________________
 
 ## Implemented Classes
 
@@ -43,7 +43,7 @@ Main methods:
 - `equals(Object o)`
 - `toString()`
 
----
+_____________________
 
 ### Map
 Implements the `Map2D` interface.
@@ -77,7 +77,7 @@ Represents a 2D raster map and supports map manipulation, drawing, and BFS algor
   Computes a distance map from a source point.  
   Unreachable cells are marked with `-1`.
 
----
+_____________________
 
 ## GUI (Ex2_GUI)
 The GUI visualizes the 2D map using `StdDraw`.
@@ -89,7 +89,7 @@ Features:
 
 The GUI is intended for **visual demonstration only**, not for interaction.
 
----
+_____________________
 
 ## JUnit Tests
 JUnit tests were written to verify correctness of the core functionality.
@@ -107,7 +107,7 @@ JUnit tests were written to verify correctness of the core functionality.
 
 All major algorithms and non-trivial methods are covered by unit tests.
 
----
+_____________________
 
 ## GUI Output
 The following screenshots demonstrate the GUI output:
@@ -118,7 +118,7 @@ The following screenshots demonstrate the GUI output:
 <img width="876" height="877" alt="4276b3624152156c9b378284bd068641" src="https://github.com/user-attachments/assets/aa82a833-7e03-45b7-af9a-1459c1bae877" />
 
 
----
+_____________________
 
 ## How to Run
 
