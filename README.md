@@ -115,7 +115,8 @@ The following screenshots demonstrate the GUI output:
 - Drawing primitives (rectangle, line, circle)
 - Visualization of a 2D map / maze
 
-(Add screenshots here)
+<img width="876" height="877" alt="4276b3624152156c9b378284bd068641" src="https://github.com/user-attachments/assets/aa82a833-7e03-45b7-af9a-1459c1bae877" />
+
 
 ---
 
